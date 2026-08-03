@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.zip
+*.log
+.DS_Store

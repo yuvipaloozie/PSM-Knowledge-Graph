@@ -1,0 +1,2813 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Table 3 – PHA Study Nodes/Topics Modified,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+"1. Node 1:
+Condensate Feed from
+Condenensate Feed Pumps
+to Condensate Feed
+Filter/Coalescer through
+Preheaters to VOC
+Stabilizer Column
+(Pumps PM-53688A/B, Filter
+FI-81314A/B, Heat Exchanger
+EX-81314/102/103/104/105)",,,,,,,,,"Feed from 97415-1/2/3 at ambient
+temperature; Desalter runs ~175-
+180 degF, Desalter pressure ~140
+psig, 1600 GPM maximum rate. Tie-
+in to Desalter between downstream
+of Heat Exchanger EX-59524 and
+upstream of Heat Exchanger EX-
+105. Coalescers FL-81314A/B are
+currently bypassed.
+PM-53688A/B/C:
+- 1472 GPM @ 776' TDH
+FL-81314A/B (permanently bypassed):
+- MAWP = 325 psig @ 120 degF
+- Capacity = 1460 GPM
+EX-81314:
+- Shell MAWP = 305 psig @ 450
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 1.34 MMBTU/Hr
+EX-56446:
+- Shell MAWP = 305 psig @ 450
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 13.6 MMBTU/Hr
+EX-73992:
+- Shell MAWP = 305 psig @ 460
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 33.8 MMBTU/Hr
+EX-59524:
+- Shell MAWP = 311 psig @ 650
+degF
+- Tube MAWP = 311 psig @ 650
+degF
+- Duty = 18.9 MMBTU/Hr
+EX-17647:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 650
+degF
+- Duty = 29.7 MMBTU/Hr",,,,99-DWG-5906,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,FL-81314A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-5906 Redline,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,FL-81314A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-5128,,,EX-59524,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-17647,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7145,,,T-81314,"VOC Stabilizer
+Column",,,,,
+"2. Node 2: VOC
+Stabilizer Column, VOC
+Stabilizer Reboiler, Distillation
+Tower Feed Preheater to
+Distillation Tower (T-81314, Heat
+Exchanger EX 76255, 107)",,,,,,,,,"Bottoms through reboiler, heated
+with heat transfer fluid, heat transfer
+fluid flow controlled by column
+temperature.
+Bottoms feed to Distillation Tower
+heated by heat transfer fluid (Heat
+Exchanger EX-60820A/B), heat
+transfer fluid flow controlled by
+Distillation Tower feed temperature.
+T-81314:
+- Design = 120 psig MAWP @ 375
+degF
+- MDMT = 10 degF @ 120 psig",,,,99-DWG-7145,,,T-81314,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-8221,,,EX-76255,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-60820,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-8221 Redline,,,EX-76255,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-60820,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Page 6,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+EX-76255:
+- Shell MAWP = 287 psig @ 650
+degF
+- Shell MDMT = 287 psig @ 20 degF
+- Tube MAWP = 276 psig @ 700
+degF
+- Tube MDMT = 276 psig @ 20 degF
+- Duty = 54.3 MMBTU/Hr
+EX-60820:
+- Shell MAWP = 227 psig @ 650
+degF
+- Shell MDMT = 227 psig @ 20 degF
+- Tube MAWP = 218 psig @ 700
+degF
+- Tube MDMT = 218 psig @ 20 degF
+- Duty = 121.7 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"3. Node 3: VOC
+Stabilizer Column overhead
+system: VOC Stabilizer
+Condenser, Accumulator,
+Pumps; and Y-Grade to
+storage (AF-81314, PV-81314,
+PM-81314A/B)",,,,,,,,,"Stabilizer overhead runs at 52954-120F,
+90 psig, accumulator vents to
+recycle compressor system
+AF-81314:
+- Design = 120 psig MAWP @ 300
+degF
+- Design Duty = 10.7 MMBTU/Hr
+PV-81314:
+- Design = 120 psig MAWP @ 300
+degF
+- MAWP = 708 psig @ 130 degF
+- MDMT = 10 degF @ 120 psig
+PM-81314A/B:
+- GPM = 239, HP = 15, RPM = 3550
+- Temp = 120 degF @ deltaP 56 psi",,,,99-DWG-7145,,,T-81314,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-7013,,,AF-81314,"VOC Stabilizer
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-5469,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5469 Redline,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+"4. Node 4: Distillation Tower,
+Distillation Tower Overheads
+Pump, Bottoms to Feed
+Preheater, Bottoms Product
+to Desalter Wash Water
+Heater, Bottom Product
+Cooler and Distillation Tower
+Bottoms Product to Storage
+(T-56446, PM-59524A/B, AF-73992,
+Heat Exchanger EX-17647,
+Heat Exchanger EX-16773A/B)",,,,,,,,,"Distillation Tower Bottoms - 525-560F,
+9-11 psig, temperature to storage =
+140-160F, product flow rate = 250-
+450 GPM; bottoms product
+temperature controlled by turning fin
+fans on/off
+EX-81314:
+- Shell MAWP = 305 psig @ 450
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 1.34 MMBTU/Hr
+AF-56446:
+- Design = 50 psig MAWP @ 300
+degF
+- Design Duty = 150.5 MMBTU/Hr
+PV-56446:
+- Design = 50 psig MAWP @ 300
+degF
+- MDMT = 10 degF @ 50 psig
+PM-73992A/B:
+- MAWP = 533 psig @ 139 degF
+- Design = 121 degF @ 119 psi
+deltaP",,,,99-DWG-5128,,,EX-59524,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-17647,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7145,,,T-81314,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4069,,,PM-59524A/B,"Distillation Tower
+Bottoms Product
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-3162,,,AF-73992,"Bottoms Product
+Cooler",,,,,
+,,,,,,,,,,,,,40-PI-44741A,,,EX-47697A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,,,,EX-16773A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Page 7,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+"5. Node 5: Distillation Tower
+Overhead System: Distillation
+Tower Condenser,
+Accumulator, Overhead
+Pumps, Light VOC
+Product Cooler and Light
+VOC to Storage (AF-56446,
+PV-56446, PM-73992 A/B, Heat
+Exchanger EX-81314) to tanks
+24/25",,,,,,,,,"Overhead pressure - 9-11 psig,
+overhead temperature ~188F,
+temperature to storage - 67-72F
+after CH-1/2 chillers.
+12 fin fan banks, 24 fans. Typically
+run all fans, may be able to shut 5
+fans in winter.
+EX-17647:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 650
+degF
+- Duty = 29.7 MMBTU/Hr
+T-56446:
+- Design = 50 psig MAWP @ 575
+degF
+- MDMT = 50 psig @ -20 degF
+PM-59524A/B:
+- MAWP = 562 psig @ 575 degF @
+deltaP 105 psi
+- Design = 631 GPM, 75 HP, 3550
+RPM, 548 degF
+AF-73992:
+- Design = 250 psig MAWP @ 625
+degF
+- Design Duty = 49.5 MMBTU/Hr",,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4547,,,AF-56446,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-8403,,,AF-56446,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-5963,,,AF-56446,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-8355,,,PM-73992A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-56446,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-4893,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4893 Redline,,,,"Light VOC
+Product to Storage",,,,,
+"6. Node 6: Heavy VOC
+Side Draw From T-56446 to
+Heavy VOC Stripper (T-
+103), Stripper Reboiler, and
+Heavy VOC Stripper
+Bottoms Pump to Feed
+Preheater and Product
+Cooler to Storage;
+Overhead Vapor Return to T-
+102 (T-73992, Heat Exchanger
+EX-48603, PM-17647A/B, Heat
+Exchanger EX-56446, AF-17647)",,,,,,,,,"Normally run with no hot oil on
+reboiler (Heat Exchanger EX-48603),
+cooled to ~90F in AF-17647, stripper
+pressure approximately same as
+Distillation Tower.
+EX-56446:
+- Shell MAWP = 305 psig @ 450
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 13.6 MMBTU/Hr
+EX-48603:
+- Shell MAWP = 83 psig @ 650 degF
+- Shell MDMT = -20 degF @ 83 psig
+- Tube MAWP = 156 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 156
+psig
+- Duty = 13.4 MMBTU/Hr
+T-73992:
+- Design = 50 psig MAWP @ 400
+degF
+- MDMT = 10 degF @ 50 psig
+PM-17647A/B:
+- MAWP = 642 psig @ 350 degF",,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-7350,,,T-73992,"Heavy VOC
+Stripper",,,,,
+,,,,,,,,,,,,,,,,EX-48603,"Heavy VOC
+Stripper Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-4935,,,PM-17647A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-76255A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-60820A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4893,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Page 8,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Design = 493 GPM, 60 HP, 3550
+RPM, 314 degF
+AF-17647:
+- Design = 250 psig MAWP @ 375
+degF
+- Design Duty = 15.3 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-4893 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4796,,,AF-17647,"Heavy VOC
+Product Cooler",,,,,
+"7. Node 7: Kero Side draw
+from T-56446 to Kero Stripper
+(T-59524), Stripper Reboiler,
+and Stripper Bottoms Pump
+to Heat Exchanger EX-73992
+Feed Preheater and to Kero
+Product Cooler to Storage;
+Vapor Return to T-56446 (T-
+104, Heat Exchanger EX-
+109, PM-76255A/B, Heat
+Exchanger EX-73992, AF-59524)",,,,,,,,,"Kero stripper runs at ~360-390F,
+stripper pressure approx. same as
+Distillation Tower.
+Kero Filters - moisture and
+particulate removal
+EX-73992:
+- Shell MAWP = 305 psig @ 450
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 33.8 MMBTU/Hr
+EX-75469:
+- Shell MAWP = 258 psig @ 650
+degF
+- Shell MDMT = -20 degF @ 258
+psig
+- Tube MAWP = 298 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 298
+psig
+- Duty = 24.7 MMBTU/Hr
+T-59524:
+- Design = 50 psig MAWP @ 600
+degF
+- MDMT = 10 degF @ 50 psig
+PM-76255A/B:
+- MAWP = 535 psig @ 450 degF
+- Design = 978 GPM, 100 HP, 1775
+RPM, 412 degF
+AF-59524:
+- Design = 250 psig MAWP @ 450
+degF
+- Design Duty = 46.4 MMBTU/Hr",,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-6769,,,T-59524,Kero Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-75469,"Kero Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-4935,,,PM-17647A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-76255A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-60820A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4893,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4893 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-1913,,,AF-59524,"Kero Product
+Cooler",,,,,
+"8. Node 8: Diesel Stripper
+(T-17647, Heat Exchanger EX-
+110, AF-76255, PM-60820A/B)",,,,,,,,,"Diesel stripper runs at ~525-530F,
+stripper pressure approx. same as
+Distillation Tower
+EX-59524:
+- Shell MAWP = 311 psig @ 650
+degF
+- Tube MAWP = 311 psig @ 650
+degF
+- Duty = 18.9 MMBTU/Hr
+PM-60820A/B:
+- MAWP = 543 psig @ 650 degF
+- Design = 320 GPM, 50 HP, 3575
+RPM, 608 degF",,,,99-DWG-5128,,,EX-59524,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-17647,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4935,,,PM-17647A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-76255A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-60820A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4893,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,Page 9,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+EX-70814:
+- Shell MAWP = 96 psig @ 650 degF
+- Shell MDMT = -20 degF @ 96 psig
+- Tube MAWP = 186 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 186
+psig
+- Duty = 7.04 MMBTU/Hr
+AF-76255:
+- MAWP = 250 psig @ 700 degF
+- Design Duty = 26.14 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-4893 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4069,,,PM-59524A/B,"Distillation Tower
+Bottoms Product
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-3162,,,AF-73992,"Bottoms Product
+Cooler",,,,,
+,,,,,,,,,,,,,99-DWG-2162,,,T-17647,Diesel Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-70814,"Diesel Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-5722,,,AF-76255,"Diesel Product
+Cooler",,,,,
+"9. Node 9: From PV-56446
+Distillation Tower Accumulator to
+Recycle Gas Compressor,
+Recycle Compressor Suction
+Knockout Drum, Recycle
+Cooler, Recycle Gas
+Knockout Drum, Recycle
+Gas Knockout Pump to Fuel
+Gas System, (PV-60820, AF-
+108, PV-75469, PM-41064, PM-
+113)",,,,,,,,,"Inlet pressure 8-12 psig to ~70 psig
+through compressor, liquids
+knocked out and returned to
+Stabilizer feed
+CM-81314A/B:
+- Suction P = 16 psia @ 165 degF
+- Discharge P = 80 psia @ 205 degF
+PV-48603:
+- MAWP = 150 psig @ 300 degF
+- MDMT = 10 degF @ 150 psig
+AF-48603:
+- MAWP = 150 psig @ 350 degF
+- MDMT = -20 degF @ 150 psig
+PV-60820:
+- MAWP = FV/100 psig @ 250 degF
+- MDMT = 10 degF @ 100 psig
+HTR-81314:
+- MAWP = 100 psig @ 300 degF
+- MDMT = -20 degF @ 100 psig
+EX-53688:
+-MAWP Shell = 150 psig @ 350
+degF
+- MDMT Shell = -20 degF @ 150
+psig
+PV-75469:
+- MAWP = FV/125 psig @ 250 degF
+- MDMT = -10 degF @ 100 psig",,,,99-DWG-3609,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-3609 Redline,,,EX-81314,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-56446,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-73992,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-5469,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5469 Redline,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-9490,,,,"F-81314 Burner
+Controls",,,,,
+,,,,,,,,,,,,,99-DWG-8355,,,PM-73992A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-56446,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-8392 Redline,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,99-DWG-8392,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,"E000318-01-101
+SHT 1 of 5",,,CS-81314A,"Compressor
+Containment Seal
+Pot",,,,,
+,,,,,,,,,,,,,,,,CM-81314A-PM,"Seal System
+Circulating Pump",,,,,
+,,,,,,,,,,,,,,,,CM-81314A-BM,"Seal System
+Blower",,,,,
+,,,,,,,,,,,,,,,,CM-81314A-AF,"Seal System Heat
+Coil",,,,,
+,,,,,,,,,,,,,,,,CM-81314A,"Recycle
+Compressor",,,,,
+,,,,,,,,,,,,,"E000318-01-101
+SHT 2 of 5",,,CS-81314B,"Compressor
+Containment Seal
+Pot",,,,,
+,,,,,,,,,,,,,,,,CM-81314B-PM,"Seal System
+Circulating Pump",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 41824,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,CM-81314B-BM,"Seal System
+Blower",,,,,
+,,,,,,,,,,,,,,,,CM-81314B,"Recycle
+Compressor",,,,,
+,,,,,,,,,,,,,"E000318-01-101
+SHT 3 of 5",,,FL-17647A/105B,"Compressor Lube
+Oil Filter",,,,,
+,,,,,,,,,,,,,,,,HTR-56446,"Lube Oil Separator
+Heater",,,,,
+,,,,,,,,,,,,,,,,PV-48603,"Lube Oil Separator
+Vessel",,,,,
+,,,,,,,,,,,,,"E000318-01-101
+SHT 4 of 5",,,CP-81314,Control Panel,,,,,
+,,,,,,,,,,,,,,,,CMM-81314A/B,Compressor Motor,,,,,
+,,,,,,,,,,,,,,,,CPL-81314A/B,Coupling,,,,,
+,,,,,,,,,,,,,"E000318-01-101
+SHT 5 of 5",,,AF-48603,Gas Aftercooler,,,,,
+,,,,,,,,,,,,,,,,AF-60820,"Compressor Lube
+Oil Cooler",,,,,
+,,,,,,,,,,,,,"E000318-02-102
+SHT 2",,,PV-75469,"Discharge
+Scrubber",,,,,
+,,,,,,,,,,,,,,,,PM-41064A/B,Discharge Pump,,,,,
+,,,,,,,,,,,,,E000318-99-DWG-2066,,,EX-53688,"Gas to Gas Heat
+Exchanger",,,,,
+,,,,,,,,,,,,,,,,HTR-81314,"Electric Gas
+Preheater",,,,,
+,,,,,,,,,,,,,,,,PM-87095A,Scrubber Pump,,,,,
+,,,,,,,,,,,,,,,,PV-60820,Suction Scrubber,,,,,
+"10. Node 41824: Hot Oil Heater,
+F-81314; hot oil system: Hot oil
+Surge Tank, Hot Oil
+Circulation Pumps, Hot oil
+heat exchanger (PV-73992,
+PM-56446), including natural
+gas and combustion air",,,,,,,,,"Typically run 3 out of 4 hot oil
+circulation pumps. Hot oil
+temperature - 600F when
+exchangers are clean, up to 47969-
+650F when exchangers are fouled
+Hot oil to Heat Exchanger EX-76255,
+Heat Exchanger EX-60820A/B, Heat
+Exchanger EX-75469, Heat Exchanger
+EX-70814
+EX-76255:
+- Shell MAWP = 287 psig @ 650
+degF
+- Shell MDMT = 287 psig @ 20 degF
+- Tube MAWP = 276 psig @ 700
+degF
+- Tube MDMT = 276 psig @ 20 degF
+- Duty = 54.3 MMBTU/Hr
+EX-60820:
+- Shell MAWP = 227 psig @ 650
+degF
+- Shell MDMT = 227 psig @ 20 degF
+- Tube MAWP = 218 psig @ 700
+degF
+- Tube MDMT = 218 psig @ 20 degF
+- Duty = 121.7 MMBTU/Hr
+PV-73992:
+- Design = 50 psig MAWP @ 650
+degF
+PM-56446A/B/C/D:
+- MAWP = 529 psig @ 625 degF",,,,99-DWG-8221,,,EX-76255,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-60820,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-8221 Redline,,,EX-76255,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-60820,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-4957,,,PV-73992,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-56446A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,"99-DWG-4957 Redline
+1",,,PV-73992,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-56446A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,"99-DWG-4957 Redline
+2",,,PV-73992,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-56446A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-2016,,,F-81314,Hot Oil Heater,,,,,
+,,,,,,,,,,,,,99-DWG-7350,,,T-73992,"Heavy VOC
+Stripper",,,,,
+,,,,,,,,,,,,,,,,EX-48603,"Heavy VOC
+Stripper Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-6769,,,T-59524,Kero Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-75469,"Kero Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-2162,,,T-17647,Diesel Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-70814,"Diesel Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,13040-D-61869-1,,,F-33219,Hot Oil Heater,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 52650,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Design = 2433 GPM, 400 HP, 1750
+RPM, 536 degF @ 160 psi deltaP
+EX-48603:
+- Shell MAWP = 83 psig @ 650 degF
+- Shell MDMT = -20 degF @ 83 psig
+- Tube MAWP = 156 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 156
+psig
+- Duty = 13.4 MMBTU/Hr
+EX-75469:
+- Shell MAWP = 258 psig @ 650
+degF
+- Shell MDMT = -20 degF @ 258
+psig
+- Tube MAWP = 298 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 298
+psig
+- Duty = 24.7 MMBTU/Hr
+EX-70814:
+- Shell MAWP = 96 psig @ 650 degF
+- Shell MDMT = -20 degF @ 96 psig
+- Tube MAWP = 186 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 186
+psig
+- Duty = 7.04 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"11. Node 52650: Butane/Y
+Grade Storage Sphere,
+pumps and truck rack",,,,,,,,,"PV-13986 and PV-64427 - 20,000 bbl
+each; pump PM-12480A/B/C - 1000
+GPM, LR-86126/502 loading racks,
+Water draw off - 2x/shift;
+Typically only run PM-12480C, as this
+is the only PM-12480 pump that has an
+inline strainer to prevent solids.
+PV-13986:
+- Design = 120 psig MAWP @ 210/-
+20 degF and Full Vac @ - 20 degF
+- Capacity = 23,044 bbls
+PM-12480A/B/C:
+- Design = 1000 GPM, 60 HP @
+1785 RPM
+- Temp = 120 degF
+F-86126/502:
+- Design = 285 psig @ 150 degF
+- MDMT = -20 degF @ 285 psig
+LR-86126:
+- Size = 6"" - 500 GPM each bay,
+1000 GPM total flow
+- Design = 285 psig @ 100 degF
+PM-86126:
+- Capacity = 2 GPM
+- Design = 1 HP @ 1725 RPM
+LR-21246:
+- Loading Size = 6"" - 500 GPM each
+bay, 1000 GPM total flow
+- Design = 150 psig @ 100 degF",,,,99-DWG-8581,,,PV-13986,"Y-Grade Storage
+Sphere",,,,,
+,,,,,,,,,,,,,99-DWG-4773,,,PM-12480A/B/C,"Multi-Stage
+Vertical Turbine
+Pump",,,,,
+,,,,,,,,,,,,,99-DWG-9655,,,F-86126/502,"Truck Unloading
+Filter",,,,,
+,,,,,,,,,,,,,,,,LR-86126,Truck Loading Skid,,,,,
+,,,,,,,,,,,,,,,,PM-86126,Prover Drain Pump,,,,,
+,,,,,,,,,,,,,99-DWG-5205,,,LR-21246,"Truck Loading and
+Unloading Skid",,,,,
+,,,,,,,,,,,,,,,,F-85600/504,"Truck Loading
+Filter",,,,,
+,,,,,,,,,,,,,,,,PM-21246,Prover Drain PO,,,,,
+,,,,,,,,,,,,,99-DWG-6254,,,LR-21246,"Truck Loading and
+Unloading Skid",,,,,
+,,,,,,,,,,,,,,,,F-63384/506,"Truck Unloading
+Filter",,,,,
+,,,,,,,,,,,,,99-DWG-5074,,,PV-64427,"Butane/Y-Grade
+Storage Sphere",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 38112,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Unloading Size = 4"" - 160 GPM
+each bay, 320 GPM total flow
+- Design = 285 psig @ 100 degF
+F-85600/504:
+- Design = 285 psig @ 150 degF
+- MDMT = -20 degF
+PM-21246:
+- Capacity = 2 GPM
+- Design = 1 HP @ 172 RPM
+F-63384/506:
+- Design = 250 psig @ 150 degF
+- MDMT = -20 degF @ 250 psig
+PV-64427:
+- Design = 120 psig MAWP @ 210/-
+20 degF and Full Vac @ -20 degF
+- Capacity = 23,044 bbls",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"12. Node 38112: Flare, Flare
+Knockout Drum, Flare
+Knockout Drum Pump (PV-
+305, PM-43641) and Flare,
+Flow switch FL-85833",,,,,,,,,"Knockout drum pumps in manual,
+typically run once/week.
+Run one flare flower normally, run
+two blowers if high flow rate is
+anticipated
+PV-14664:
+- MAWP = 50 psig @ 300 degF
+- MDMT = 10 degF
+PM-43641A/B:
+- Design = 185 GPM, 15 HP, 1750
+RPM, 31-119 degF @ deltaP 50 psi",,,,99-DWG-5351,,,PV-14664,"Flare Knockout
+Drum",,,,,
+,,,,,,,,,,,,,,,,PM-43641A/B,"Flare Knockout
+Pump",,,,,
+,,,,,,,,,,,,,99-DWG-1708,,,,Flare Header,,,,,
+,,,,,,,,,,,,,99-DWG-5911,,,,Flare Header,,,,,
+,,,,,,,,,,,,,YA-77064-S1,,,,"Flare System 3-
+Pilot",,,,,
+"13. Node 84873: Aqueous
+Ammonia Heater System
+(PV-76255, PM-67967A/B, BM-
+105A/B)",,,,,,,,,"Ammonia injection into hot oil heater
+stack. NH3 vaporized with warmed
+air. 10,000 gallon storage tank of
+19% aqueous NH3, filled ~
+quarterly.",,,,99-DWG-2016,,,F-81314,Hot Oil Heater,,,,,
+,,,,,,,,,,,,,99-DWG-9490,,,,"F-81314 Burner
+Controls",,,,,
+,,,,,,,,,,,,,13J0010_100101,,,PV-76255,"Ammonia Storage
+Tank",,,,,
+,,,,,,,,,,,,,,,,PM-67967A/B,"NH3 Forwarding
+Pump",,,,,
+,,,,,,,,,,,,,,,,BM-17647A/B,Dilution Air Blower,,,,,
+,,,,,,,,,,,,,13J0039_100101,,,PM-24946A/B,"NH3 Forwarding
+Pump",,,,,
+,,,,,,,,,,,,,,,,BM-11689A/B,Dilution Air Blower,,,,,
+"14. Node 46038: Natural
+Gas/Fuel Gas Header",,,,,,,,,"Natural gas received from KM
+pipeline, not odorized",,,,99-DWG-5469,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5469 Redline,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-7560,,,T-56446,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-8392 Redline,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,99-DWG-8392,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,99-DWG-1708,,,,Flare Header,,,,,
+,,,,,,,,,,,,,99-DWG-3144,,,,"Natural Gas
+Header",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 84873,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-7054,,,FL-82745,"Vertical Filter
+Separator",,,,,
+,,,,,,,,,,,,,99-DWG-5953,,,,Fuel Gas,,,,,
+"15. Node 37603: Hydrocarbon
+Drain",,,,,,,,,"8000 gallon hydrocarbon sump,
+pumped out to rerun line
+TK-81314:
+- Design = 5 psig @ 400 degF
+- Nominal Capacity = 8000 gal
+PM-83821A/B:
+- Design = 250 GPM, 15 HP, 3500
+RPM
+- Temp = 75 degF @ 35 psi deltaP",,,,99-DWG-9342,,,TK-81314,Hydrocarbon Sump,,,,,
+,,,,,,,,,,,,,,,,PM-83821A/B,"Hydrocarbon Sump
+Pumps",,,,,
+"16. Node 38095: Wastewater
+Drain",,,,,,,,,"8000 gallon sump, pumped to TK 5
+TK-56446:
+- Design = 5 psig @ 400 degF
+- Nominal Capacity = 8000 gal
+PM-48584A/B:
+- Design = 100 GPM, 5 HP,
+3515/3530 RPM
+- Temp = AMB @ 26 psi deltaP",,,,99-DWG-5906 Redline,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,FL-81314A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-5906,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,FL-81314A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-5469,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5469 Redline,,,PM-81314A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-81314,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-9283,,,TK-56446,"Contact Water
+Sump",,,,,
+,,,,,,,,,,,,,,,,PM-48584A/B,"Contact Water
+Sump Pumps",,,,,
+"17. Node 98747: Air Compressor
+System",,,,,,,,,"Splitter 1 air system and common air
+header for both splitters; Two
+compressors for each splitter train,
+tied into common header. Splitter 2
+compressors are larger than Splitter
+1.
+CM-56446A/B:
+- Design = 192 CFM @ 174 psig, 60
+HP
+PV-59044:
+- Design = 200 psig ASME @ 400
+degF, 1040 Gal
+DR-81314:
+- Design = 232 psig @ 100 degF
+FL-59524A/B:
+- Design = 102 psig @ 68 degF; 254
+CFM @ 102 psi
+FL-76255:
+- Design = 102 psig @ 68 degF; 254
+CFM @ 102 psi",,,,99-DWG-8066,,,,"Air
+Compressor/Dryer",,,,,
+,,,,,,,,,,,,,99-DWG-7541,,,,"Plant
+Air/Instrument Air
+Diagram",,,,,
+,,,,,,,,,,,,,1318317118 SHT 1,,,CM-56446A/B,"Air Compressors A,
+B",,,,,
+,,,,,,,,,,,,,1318317118 SHT 2,,,PV-53688,Air Receiver (Wet),,,,,
+,,,,,,,,,,,,,1318317118 SHT 3,,,DR-81314,Air Dryer Desiccant,,,,,
+,,,,,,,,,,,,,,,,FL-59524 A/B,Service Air Filter,,,,,
+,,,,,,,,,,,,,,,,FL-76255,Service Air Filter,,,,,
+,,,,,,,,,,,,,1318317118 SHT 4,,,FL-60820,Service Air Filter,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 46038,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+FL-60820:
+- Design = 232 psig @ 68 degF; 254
+CFM @ 102 psi
+- MDMT = -20 degF",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"18. Node 95795: Rerun Manifold
+Header",,,,,,,,,"Rerun line runs to feed tanks or
+Tank 61869-14. Normally rerun to
+100-14 and then move rerun from
+100-14 back to feed tanks.",,,,99-DWG-4893,,,,"Light VOC
+Product to Storage",,,,,
+"19. Node 74532: Condensate
+feed from Condensate feed
+pumps to Condensate Feed
+Filter/Coalescer through
+preheaters to VOC
+Stabilizer Column (Pumps
+PM-53688 A/B/C, filter FL-33219
+A/B, Heat Exchanger EX-
+201,202,203, 204, 205)",,,,,,,,,"Feed from 97415-1/2/3 at ambient
+temperature, desalter runs ~200F,
+desalter pressure ~140 psi, 1475
+GPM maximum rate (to be
+confirmed). Tie in to desalter
+between downstream of Heat
+Exchanger EX-80996 and upstream of
+Heat Exchanger EX-11689.
+Coalescers are currently bypassed
+FL-33219A/B:
+- MAWP = 325 psig @ 120 degF
+- Capacity = 1460 GPM
+EX-33219:
+- Shell/Tube MAWP = 305 psig @
+450 degF
+- Duty = 1.34 MMBTU/Hr
+EX-92182:
+- Shell/Tube MAWP = 305 psig @
+450 degF
+- Duty = 13.6 MMBTU/Hr
+EX-99986:
+- Shell MAWP = 305 psig @ 460
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 33.8 MMBTU/Hr
+EX-80996:
+- Shell/Tube MAWP = 305 psig @
+650 degF
+- Duty = 18.9 MMBTU/Hr
+EX-11689:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 29.7 MMBTU/Hr",,,,99-DWG-3187 Redline,,,FL-33219A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-3187,,,FL-33219A/B,"Condensate Feed
+Filter/Coalescer",,,,,
+,,,,,,,,,,,,,99-DWG-1529,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1529 Redline,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1809,,,EX-80996,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-11689,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-8357,,,T-33219,"VOC Stabilizer
+Column",,,,,
+"20. Node 35796: VOC
+Stabilizer Column, VOC
+Stabilizer Reboiler, Distillation
+Tower Feed Preheater to
+Distillation Tower (T-33219, Heat
+Exchanger EX 48495, 207A/B)",,,,,,,,,"Bottoms through reboiler, heated
+with Therminol, Therminol flow
+controlled by column temperature.
+Bottoms feed to Distillation Tower
+heated by Therminol (Heat
+Exchanger EX-11354A/B), Therminol
+flow controlled by Distillation Tower feed
+temperature.
+T-33219:
+- Design = 120 psig MAWP @ 375
+degF
+- MDMT = 10 degF @ 120 psig",,,,99-DWG-8357,,,T-33219,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-2709,,,EX-48495,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-11354,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-2709 Redline,,,EX-48495,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-11354,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 37603,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+EX-48495:
+- Shell MAWP = 287 psig @ 650
+degF
+- Tube MAWP = 276 psig @ 700
+degF
+- Duty = 54.3 MMBTU/Hr
+EX-11354:
+- Shell MAWP = 227 psig @ 650
+degF
+- Tube MAWP = 218 psig @ 700
+degF",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"21. Node 89561: VOC
+Stabilizer Column overhead
+system: VOC Stabilizer
+Condenser, Accumulator,
+Pumps; and Y-Grade to
+storage (AF-33219, PV-33219,
+PM-33219A/B)",,,,,,,,,"Stabilizer overhead runs at 52954-120F,
+90 psig, accumulator vents to
+recycle compressor system
+AF-33219:
+- Design = 120 psig MAWP @ 300
+degF
+- Design Duty = 10.7 MMBTU/Hr
+PV-33219:
+- Design = 120 psig MAWP @ 300
+degF
+- MDMT = 10 degF @ 120 psig
+PM-33219A/B:
+- Design = 239 GPM, 15 HP, 3550
+RPM
+- Temp = 120 degF @ 56 psi deltaP",,,,99-DWG-8357,,,T-33219,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-9793,,,AF-33219,"VOC Stabilizer
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-9885 Redline,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-9885,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-8581,,,PV-13986,"Y-Grade Storage
+Sphere",,,,,
+"22. Node 73897: Distillation Tower,
+Distillation Tower Bottoms
+Pump, Bottoms to Feed
+Preheater, Bottoms Product
+to Desalter Was Water
+Heater, Bottom Product
+Cooler and Distillation Tower
+Bottoms Product to Storage
+(T-92182, PM-80996A/B, AF-99986,
+Heat Exchanger EX-11689,
+Heat Exchanger EX-47697A/B)",,,,,,,,,"Distillation Tower Bottoms - 525-560F,
+9-11 psig, temperature to storage =
+140-160F, product flow rate = 250-
+450 GPM; bottoms product
+temperature controlled by turning fin
+fans on/off
+EX-11689:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 29.7 MMBTU/Hr
+T-92182:
+- Design = 50 psig MAWP @ 575
+degF
+- MDMT = -20 degF @ 50 psig
+PM-80996A/B:
+- Design = 631 GPM, 75 HP, 3550
+RPM
+- Temp = 548 degF @ 105 psi deltaP
+AF-99986:
+- Design = 250 psig MAWP @ 625
+degF
+- Design Duty = 49.5 MMBTU/Hr
+EX-47697A/B:
+- Shell MAWP = 305 psig @ 650
+degF",,,,40-PI-44741A,,,EX-47697A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,,,,EX-16773A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,99-DWG-1809,,,EX-80996,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-11689,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-8357,,,T-33219,"VOC Stabilizer
+Column",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-9731,,,PM-80996A/B,"Distillation Tower
+Bottoms Product
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4362,,,AF-99986,"Bottoms Product
+Cooler",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 38095,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Tube MAWP = 305 psig @ 290
+degF
+- Duty = 2.3 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+"23. Node 24509: Distillation Tower
+Overhead System: Distillation
+Tower Condenser,
+Accumulator, Overhead
+Pumps, Light VOC
+Product Cooler and Light
+VOC to Storage (AF-92182-
+1/12, PV-92182, PM-99986 A/B,
+Heat Exchanger EX-33219) to
+Tanks 24/25",,,,,,,,,"Overhead pressure - 9-11 psi,
+overhead temperature ~188F,
+temperature to storage - 67-72F
+after Aggreko chillers.
+12 fin fan banks, 24 fans. Typically
+run all fans, may be able to shut 5
+fans in winter.
+EX-33219:
+- Shell/Tube MAWP = 305 psig @
+450 degF
+- Duty = 1.34 MMBTU/Hr
+AF-92182:
+- Design = 50 psig MAWP @ 300
+degF
+- Design Duty = 150.5 MMBTU/Hr
+PV-92182:
+- Design = 50 psig MAWP @ 300
+degF
+PM-99986A/B:
+- Design = 2528 GPM, 300 HP, 1760
+RPM
+- MAWP = 533 psig @ 139 degF @
+119 psi deltaP",,,,99-DWG-1529,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1529 Redline,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4097,,,AF-92182,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-5397,,,AF-92182,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-2727,,,AF-92182,"Distillation Tower
+Condenser",,,,,
+,,,,,,,,,,,,,99-DWG-5411 Redline,,,PM-99986A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-92182,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5411,,,PM-99986A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-92182,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+"24. Node 78719: Heavy VOC
+Side Draw From T-92182 to
+Heavy VOC Stripper (T-
+203), Stripper Reboiler, and
+Heavy VOC Stripper
+Bottoms Pump to Feed
+Preheater and Product
+Cooler to Storage;
+Overhead Vapor Return to T-
+202 (T-99986, Heat Exchanger
+EX-82745, PM-11689A/B, AF-
+205)",,,,,,,,,"Normally run with no hot oil on
+reboiler (Heat Exchanger EX-82745),
+cooled to ~90F in AF-11689, stripper
+pressure approximately same as
+Distillation Tower
+EX-92182:
+- Shell/Tube MAWP = 305 psig @
+450 degF
+- Duty = 13.6 MMBTU/Hr
+T-99986:
+- Design 50 psig MAWP @ 400 degF
+- MAWP = 50 psig @ 10 degF
+EX-82745:
+- Shell MAWP = 83 psig @ 650 degF
+- Shell MDMT = -20 degF @ 83 psig
+- Tube MAWP = 156 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 156
+psig
+- Duty = 13.4 MMBTU/Hr
+PM-11689A/B:",,,,99-DWG-1529,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1529 Redline,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-4067,,,T-99986,"Heavy VOC
+Stripper",,,,,
+,,,,,,,,,,,,,,,,EX-82745,"Heavy VOC
+Stripper Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-2975 Redline,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 98747,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Design = 493 GPM, 60 HP, 3550
+RPM
+- MAWP = 642 psig @ 350 degF @
+92 psi deltaP
+AF-11689:
+- Design = 250 psig MAWP @ 375
+degF
+- Design Duty = 15.3 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-2975,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-5896,,,AF-11689,"Heavy VOC
+Product Cooler",,,,,
+"25. Node 65724: Kero Side draw
+from T-92182 to Kero Stripper
+(T-80996), Stripper Reboiler,
+and Stripper Bottoms Pump
+to Heat Exchanger EX-99986
+Feed Preheater and to Kero
+Product Cooler to Storage;
+Vapor Return to T-92182 (T-
+204, Heat Exchanger EX-
+209, PM-48495A/B, AF-80996)",,,,,,,,,"Kero stripper runs at ~360-390F,
+stripper pressure approx. same as
+Distillation Tower
+EX-99986:
+- Shell MAWP = 305 psig @ 460
+degF
+- Tube MAWP = 305 psig @ 450
+degF
+- Duty = 33.8 MMBTU/Hr
+T-80996:
+- Design = 50 psig MAWP @ 600
+degF
+- MDMT = 10 degF @ 50 psig
+EX-99938:
+- Shell MAWP = 258 psig @ 650
+degF
+- Shell MDMT = -20 degF @ 258
+psig
+- Tube MAWP = 298 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 298
+psig
+- Duty = 24.7 MMBTU/Hr
+PM-48495A/B:
+- Design = 978 GPM, 100 HP, 1750
+RPM
+- Temp = 412 degF @ 85 psi deltaP
+AF-80996:
+- Design = 250 psig MAWP @ 450
+degF
+- Design Duty = 46.4 MMBTU/Hr",,,,99-DWG-1529,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1529 Redline,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,99-DWG-1311,,,T-80996,Kero Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-99938,"Kero Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-2975,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-2975 Redline,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-3159,,,AF-80996,"Kero Product
+Cooler",,,,,
+"26. Node 97959: Diesel Stripper
+(T-11689, Heat Exchanger EX-
+210, AF-48495, PM-11354A/B)",,,,,,,,,"Diesel stripper runs at ~525-530F,
+stripper pressure approx. same as
+Distillation Tower
+EX-80996:",,,,99-DWG-1809,,,EX-80996,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-11689,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9306,,,T-92182,Distillation Tower,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 95795,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Shell/Tube MAWP = 305 psig @
+650 degF
+- Duty = 18.9 MMBTU/Hr
+PM-11354A/B:
+- Design = 320 GPM, 50 HP, 3575
+RPM
+- MAWP = 543 psig @ 650 degF @
+106 psi deltaP
+T-11689:
+- Design = 57 psig MAWP @ 650
+degF
+- MDMT = 10 degF @ 57 psig
+EX-13655:
+- Shell MAWP/MDMT = 96 psig @
+650 degF/ -20 degF
+- Tube MAWP/MDMT = 186 psig @
+700 degF/ -20 degF
+- Duty = 7.04 MMBTU/Hr
+AF-48495:
+- MAWP = 250 psig @ 700 degF
+- Design Duty = 26.14 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-2975 Redline,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-2975,,,PM-11689A/B,"Heavy VOC
+Stripper Product
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-48495A/B,"Keto Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-11354A/B,"Diesel Stripper
+Product Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4453,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-4453 Redline,,,,"Light VOC
+Product to Storage",,,,,
+,,,,,,,,,,,,,99-DWG-6743,,,T-11689,Diesel Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-13655,"Diesel Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-2946,,,AF-48495,"Diesel Product
+Cooler",,,,,
+"27. Node 95328: From PV-92182
+Distillation Tower Accumulator to
+Recycle Gas Compressor,
+Recycle Compressor Suction
+Knockout Drum, Recycle
+Cooler, Recycle Gas
+Knockout Drum, Recycle
+Gas Knockout Pump to Fuel
+Gas System, (PV-11354, AF-
+208, PV-99938, PM-28116, PM-
+213) (Recycle Compressor
+Vendor Package evaluated
+in Node 52650)",,,,,,,,,"Inlet pressure 8-12 psig to ~70 psig
+through compressor, liquids
+knocked out and returned to
+Stabilizer feed
+CM-33219A/B:
+- Suction P = 16 psia @ 165 degF
+- Discharge P = 80 psia @ 265 degF
+PV-82745:
+- MAWP = 150 psig @ 300 degF
+- MDMT = 10 degF @ 150 psig
+AF-82745:
+- MAWP = 150 psig @ 350 degF
+- MDMT = -20 degF @ 150 psig
+PV-11354:
+- MAWP = FV/100 psig @ 250 degF
+- MDMT = 10 degF @ 100 psig
+HTR-33219:
+- MAWP = 100 psig @ 300 degF
+- MDMT = -20 degF @ 100 psig
+EX-59044:
+- MAWP Shell = 150 psig @ 250
+degF
+- MDMT Shell = -20 degF @ 150
+psig
+- MAWP Tube = 150 psig @ 350
+degF
+- MDMT Tube = -20 degF @ 150
+psig
+PV-99938:
+- MAWP = FV/125 psig @ 250 degF
+- MDMT = -10 degF @ 100 psig",,,,99-DWG-1529,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1529 Redline,,,EX-33219,"Light VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-92182,"Heavy VOC to
+Feed Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-99986,"Kero to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-9885 Redline,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-9885,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-4802,,,,"F-33219 Burner
+Controls",,,,,
+,,,,,,,,,,,,,99-DWG-5411 Redline,,,PM-99986A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-92182,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-5411,,,PM-99986A/B,"Distillation Tower
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-92182,"Distillation Tower
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-3863 Redline,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,99-DWG-3863,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 74532,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,"E000353-01-101
+SHT 1",,,CS-33219A,"Compressor
+Containment Seal
+Pot",,,,,
+,,,,,,,,,,,,,,,,CM-33219A-PM,"Seal System
+Circulating Pump",,,,,
+,,,,,,,,,,,,,,,,CM-33219A,"Recycle
+Compressor",,,,,
+,,,,,,,,,,,,,,,,CM-33219A-BM,"Seal System
+Blower",,,,,
+,,,,,,,,,,,,,,,,CM-33219A-AF,"Seal System Heat
+Coil",,,,,
+,,,,,,,,,,,,,"E000353-01-101
+SHT 2",,,CM-33219B-AF,"Seal System Heat
+Coil",,,,,
+,,,,,,,,,,,,,,,,CS-33219B,"Compressor
+Containment Seal
+Pot",,,,,
+,,,,,,,,,,,,,,,,CM-33219B-PM,"Seal System
+Circulating Pump",,,,,
+,,,,,,,,,,,,,,,,CM-33219B-BM,"Seal System
+Blower",,,,,
+,,,,,,,,,,,,,,,,CM-33219B,"Recycle
+Compressor",,,,,
+,,,,,,,,,,,,,"E000353-01-101
+SHT 3",,,FL-11689A/B,"Compressor Lube
+Oil Filter",,,,,
+,,,,,,,,,,,,,,,,HTR-92182,"Lube Oil Separator
+Heater",,,,,
+,,,,,,,,,,,,,,,,PV-82745,"Lube Oil Separator
+Vessel",,,,,
+,,,,,,,,,,,,,"E000353-01-101
+SHT 4",,,CMM-33219A/B,Compressor Motor,,,,,
+,,,,,,,,,,,,,"E000353-01-101
+SHT 5",,,AF-82745,Gas Aftercooler,,,,,
+,,,,,,,,,,,,,,,,AF-11354,"Compressor Lube
+Oil Cooler",,,,,
+,,,,,,,,,,,,,"E000353-02-102
+SHT 1",,,PV-11354,"Recycle
+Compressor Inlet
+Scrubber",,,,,
+,,,,,,,,,,,,,"E000353-02-102
+SHT 2",,,PV-99938,"Discharge
+Scrubber",,,,,
+,,,,,,,,,,,,,,,,PM-28116A/B,Discharge Pump,,,,,
+"28. Node 35657: Hot Oil Heater,
+F-33219; hot oil system: Hot oil
+Surge Tank, Hot Oil
+Circulation Pumps, Hot oil
+heat exchanger (PV-99986,
+PM-92182), including natural
+gas and combustion air",,,,,,,,,"Typically run 3 out of 4 hot oil
+circulation pumps. Hot oil
+temperature - 600F when
+exchangers are clean, up to 47969-
+645F when exchangers are fouled
+Hot oil to Heat Exchanger EX-48495,
+Heat Exchanger EX-11354A/B, Heat
+Exchanger EX-99938, Heat Exchanger
+EX-13655
+Nitrogen blanket on surge tank
+from N2 bottles, pressure
+maintained at 65724 psig
+EX-48495:
+- Shell MAWP = 287 psig @ 650
+degF
+- Tube MAWP = 276 psig @ 700
+degF
+- Duty = 54.3 MMBTU/Hr
+EX-11354:",,,,99-DWG-2709,,,EX-48495,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-11354,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-2709 Redline,,,EX-48495,"VOC Stabilizer
+Reboiler",,,,,
+,,,,,,,,,,,,,,,,EX-11354,"Distillation Tower
+Feed Preheater",,,,,
+,,,,,,,,,,,,,"99-DWG-8595 Redline
+2",,,PV-99986,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-92182A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-8595 Redline,,,PV-99986,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-92182A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-8595,,,PV-99986,Hot Oil Surge Tank,,,,,
+,,,,,,,,,,,,,,,,PM-92182A/B/C/D,"Hot Oil Circulation
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-1174,,,F-33219,Hot Oil Heater,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 35796,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Shell MAWP = 227 psig @ 650
+degF
+- Tube MAWP = 218 psig @ 700
+degF
+PV-99986:
+- Design = 50 psig MAWP @ 650
+degF
+PM-92182A/B/C:
+- Design = 2433 GPM, 400 HP, 1750
+RPM
+- Temp = 536 degF @ 160 psi deltaP
+EX-82745:
+- Shell MAWP = 83 psig @ 650 degF
+- Shell MDMT = -20 degF @ 83 psig
+- Tube MAWP = 156 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 156
+psig
+- Duty = 13.4 MMBTU/Hr
+EX-99938:
+- Shell MAWP = 258 psig @ 650
+degF
+- Shell MDMT = -20 degF @ 258
+psig
+- Tube MAWP = 298 psig @ 700
+degF
+- Tube MDMT = -20 degF @ 298
+psig
+- Duty = 24.7 MMBTU/Hr
+EX-13655:
+- Shell MAWP/MDMT = 96 psig @
+650 degF/ -20 degF
+- Tube MAWP/MDMT = 186 psig @
+700 degF/ -20 degF
+- Duty = 7.04 MMBTU/Hr",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-4067,,,T-99986,"Heavy VOC
+Stripper",,,,,
+,,,,,,,,,,,,,,,,EX-82745,"Heavy VOC
+Stripper Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-1311,,,T-80996,Kero Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-99938,"Kero Stripper
+Reboiler",,,,,
+,,,,,,,,,,,,,99-DWG-6743,,,T-11689,Diesel Stripper,,,,,
+,,,,,,,,,,,,,,,,EX-13655,"Diesel Stripper
+Reboiler",,,,,
+"29. Node 58747: Aqueous
+Ammonia Heater System",,,,,,,,,"Ammonia injection into hot oil heater
+stack. NH3 vaporized with warmed
+air. 10,000 gallon storage tank of
+19% aqueous NH3, filled ~ quarterly
+PV-76255:
+- Capacity = 10,000 gal
+PM-67967A/B:
+- Design = 0.5 HP @ 1750 RPM
+- Max Capacity = 3 GPM
+- Max discharge P = 100 psig
+BM-17647A/B:
+- Design = 5 HP @ 3510 RPM
+- Capacity = 192 CFM @ 42"" W.C.
+PM-24946A/B:
+- Design = 0.5 HP @ 1750 RPM
+- Max Capacity = 3 GPM
+- Max Discharge P = 100 psig
+BM-11689A/B:
+- Design = 5 HP @ 3510 RPM
+- Capacity = 192 CFM @ 42"" W.C.",,,,99-DWG-1174,,,F-33219,Hot Oil Heater,,,,,
+,,,,,,,,,,,,,99-DWG-4802,,,,"F-33219 Burner
+Controls",,,,,
+,,,,,,,,,,,,,13J0010_100101,,,PV-76255,"Ammonia Storage
+Tank",,,,,
+,,,,,,,,,,,,,,,,PM-67967A/B,"NH3 Forwarding
+Pump",,,,,
+,,,,,,,,,,,,,,,,BM-17647A/B,Dilution Air Blower,,,,,
+,,,,,,,,,,,,,13J0039_100101,,,PM-24946A/B,"NH3 Forwarding
+Pump",,,,,
+,,,,,,,,,,,,,,,,BM-11689A/B,Dilution Air Blower,,,,,
+"30. Node 11535: Natural
+Gas/Fuel Gas Header",,,,,,,,,"Natural gas received from KM
+pipeline, not odorized",,,,99-DWG-3863,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 89561,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+FL-82745:
+- MAWP = 285 psig @ 100 degF",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-3863 Redline,,,,"Recycle Gas
+Compressor",,,,,
+,,,,,,,,,,,,,99-DWG-5911,,,,Flare Header,,,,,
+,,,,,,,,,,,,,99-DWG-7054,,,FL-82745,"Vertical Filter
+Separator",,,,,
+,,,,,,,,,,,,,99-DWG-5953,,,,Fuel Gas,,,,,
+"31. Node 50901: Hydrocarbon
+Drain",,,,,,,,,"8000 gallon hydrocarbon sump,
+pumped out to rerun line
+TK-33219:
+- Design = 5 psig @ 400 degF
+- Nominal Capacity = 8000 gal
+PM-43983A/B:
+- Design = 250 GPM, 15 HP,
+3530/3550 RPM
+- Temp = 75 degF @ 35 psi deltaP",,,,99-DWG-8168,,,TK-33219,Hydrocarbon Sump,,,,,
+,,,,,,,,,,,,,,,,PM-43983A/B,"Hydrocarbon Sump
+Pumps",,,,,
+"32. Node 73809: Wastewater
+Drain",,,,,,,,,"8000 gallon sump, pumped to TK 5,
+option to bypass sump directly to
+storm water pond (first inch goes to
+TK 5)
+TK-92182:
+- Design = 5 psig @ 400 degF
+- Nominal Capacity = 8000 gal
+PM-33637A/B:
+- Design = 100 GPM, 5 HP,
+3500/3530 RPM
+- Temp = Ambient @ 26 psi deltaP",,,,99-DWG-9885 Redline,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-9885,,,PM-33219A/B,"VOC Stabilizer
+Overhead Pumps",,,,,
+,,,,,,,,,,,,,,,,PV-33219,"VOC Stabilizer
+Accumulator",,,,,
+,,,,,,,,,,,,,99-DWG-8168,,,TK-33219,Hydrocarbon Sump,,,,,
+,,,,,,,,,,,,,,,,PM-43983A/B,"Hydrocarbon Sump
+Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-9842,,,TK-92182,"Contact Water
+Sump",,,,,
+,,,,,,,,,,,,,,,,PM-33637A/B,"Contact Water
+Sump Pumps",,,,,
+"33. Node 22654: Air Compressor
+System",,,,,,,,,"Two compressors for each splitter
+train, tied into common header.
+Splitter 2 compressors are larger
+than Splitter 1 (375 CFM vs. 192
+CFM)
+CM-92182A/B:
+- Design = 375 CFM @ 174 psig;
+125 HP
+PV-59044:
+- Design 200 psig ASME @ 400
+degF; 2200 gal
+DR-33219:
+- Design = 181 psig @ 100 degF
+FL-80996A/B:
+- Design = 102 psig @ 68 degF, 360
+CFM @ 102 psi
+FL-48495:
+- Design = 102 psig @ 68 degF, 360
+CFM @ 102 psi
+FL-11354:
+- Design = 102 psig @ 68 degF,
+1165 CFM @ 102 psi",,,,1318317146 SHT 1,,,CM-92182A/B,"Air Compressors A,
+B",,,,,
+,,,,,,,,,,,,,1318317146 SHT 2,,,PV-59044,Air Receiver (Wet),,,,,
+,,,,,,,,,,,,,1318317146 SHT 3,,,DR-33219,Air Dryer Desiccant,,,,,
+,,,,,,,,,,,,,,,,FL-80996A/B,Service Air Filter,,,,,
+,,,,,,,,,,,,,,,,FL-48495,Service Air Filter,,,,,
+,,,,,,,,,,,,,1318317146 SHT 4,,,FL-11354,Service Air Filter,,,,,
+"34. Node 35613: Condensate
+Feed through Desalter",,,,,,,,,From 41268 Desalter Project PHA.,,,,99-DWG-5128,,,EX-59524,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 73897,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+Two desalter systems (Splitter 1 and
+Splitter 2). Flow: Designed for
+50,000 bpd per desalter. Actual flow
+expected to vary between 33,000 to
+54,000 bpd. Three Booster Pumps
+in parallel (shared between the two
+systems). Normal operation: PM-
+121A feeds Desalter 1, PM-77434B
+feeds Desalter 2, and PM-77434C is
+spare. Booster pump suction =
+83.5psig @ 190 - 210F (210F
+maximum), discharge = 164psig @
+210F, dP = 40psi. 42API case. Line
+rated for 600psig (ANSI 28604).
+Demulsifier system pumps are
+positive displacement. EAD (at
+least one) present in booster pump
+area. Feed pumps max discharge =
+285psig. Maximum pressure of
+desalter system = 325psig (dead
+head of feed pump plus booster
+pump max increase). Control room
+manned 24/7. Desalter vessel has 4
+level transmitters (condensate and
+water level). Residence time in
+vessel is approximately 40 min.
+PM-77434A/B:
+- Design = 1600 GPM, 60 HP, 1800
+RPM
+- Temp = 210 degF @ 40 psi deltaP
+D-81314/201:
+- Design = 305 psi @ 650 degF
+TK-48603:
+- Capacity = 3000 gal
+- Design = 100 degF; Atm
+PM-13644A/B:
+- Capacity = 1.8 GPH
+- Design T = 100 degF",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,EX-17647,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-7510,,,PM-77434A/B/C,"Condensate
+Booster Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4394,,,DT-81314A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-81314,"Condensate
+Desalter",,,,,
+,,,,,,,,,,,,,40-PI-44741A,,,EX-47697A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,,,,EX-16773A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,99-DWG-1527,,,,"Desalter Sample
+System",,,,,
+,,,,,,,,,,,,,99-DWG-7488,,,TK-48603,"Demulsifier
+Chemical Storage
+Tank",,,,,
+,,,,,,,,,,,,,,,,PM-13644A/B,"Demulsifier
+Metering Pump",,,,,
+,,,,,,,,,,,,,99-DWG-1809,,,EX-80996,"Diesel to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,,,,EX-11689,"Bottoms to Feed
+Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-1017,,,D-33219A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-33219,"Condensate
+Desalter",,,,,
+"35. Node 38536: Wash Water
+System",,,,,,,,,"From 41268 Desalter Project PHA.
+TK-73992 Treated Wash Water
+Storage Tank is currently bypassed.
+Minimum wash water flow =
+1500bpd (3% of condensate feed
+rate). Maximum flow: 2500bpd (5%).
+Supplied by the city at 79029-80psig.
+Two wash water pumps
+(operationally set such that PM-
+122A feeds Splitter 1 and PM-77069B
+feeds Splitter 2). Wash water pumps
+discharge at 184psig. 144psig upon
+entering desalter. Water is at
+ambient temperature (estimated
+high = 85F). 1hr residence time in
+storage tank.
+EX-87095A/B/C:
+- Shell MAWP = 305 psig @ 290
+degF",,,,99-DWG-4394,,,DT-81314A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-81314,"Condensate
+Desalter",,,,,
+,,,,,,,,,,,,,99-DWG-1245,,,EX-87095A/B/C,"Wash Water to
+Desalter Waste
+Water Preheater",,,,,
+,,,,,,,,,,,,,40-PI-44741A,,,EX-47697A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,,,,EX-16773A/B,"Bottoms Product to
+Desalter Wash
+Water Heater",,,,,
+,,,,,,,,,,,,,99-DWG-4352,,,PK-40559,"Water Softening
+System",,,,,
+,,,,,,,,,,,,,,,,TK-76255,Brine Day Tank,,,,,
+,,,,,,,,,,,,,,,,TK-73992,"Treated Wash
+Water Storage
+Tank",,,,,
+,,,,,,,,,,,,,,,,PM-77069A/B,"Desalter Wash
+Water Pump",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 24509,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+- Tube MAWP = 305 psig @ 290
+degF
+- Duty = 2.5 MMBTU/Hr
+EX-47697A/B:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 290
+degF
+- Duty = 2.3 MMBTU/Hr
+EX-16773A/B:
+- Shell MAWP = 305 psig @ 650
+degF
+- Tube MAWP = 305 psig @ 290
+degF
+- Duty = 2.3 MMBTU/Hr
+PK-40559:
+- GPM = 150
+TK-73992:
+- Capacity = 5250 gal
+PM-77069A/B:
+- Design = 170 GPM, 50 HP, 3600
+RPM
+- Temp = 85 degF @ 187 psi deltaP
+TK-60820:
+- Capacity = 4500 gal
+- Design T = 100 degF
+- Design P = Atm
+PM-78021A/B:
+- Design = 15 GPM, 1/3 HP, 3450
+RPM
+PM-94850:
+- Capacity = 0.9 GPH
+- Discharge P = 126 psig
+- Design T = 100 degF
+TK-17647:
+- Design T = 100 degF
+- Design P = Atm",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-8622,,,AF-75469,"Desalter Waste
+Water Cooler",,,,,
+,,,,,,,,,,,,,,,,AF-99938,"Desalter Waste
+Water Cooler",,,,,
+,,,,,,,,,,,,,99-DWG-3445,,,TK-60820,"Sodium Bi-Sulfite
+Storage Tank",,,,,
+,,,,,,,,,,,,,,,,PM-78021A/B,"Brine Transfer
+Pumps",,,,,
+,,,,,,,,,,,,,,,,PM-94850,"Sodium Bi-Sulfite
+Metering Pump",,,,,
+,,,,,,,,,,,,,,,,TK-17647,"Salt/Brine Storage
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-1527,,,,"Desalter Sample
+System",,,,,
+,,,,,,,,,,,,,99-DWG-1017,,,D-33219A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-33219,"Condensate
+Desalter",,,,,
+36. Node 23650: Waste Water,,,,,,,,,"From 41268 Desalter Project PHA.
+Minimum water flow = 1500bpd (3%
+of condensate feed rate). Maximum
+flow: 2500bpd (5%). Steady state.
+Exits desalter at approximately
+144psig. Water exits desalter at
+210F (234F max). Water removal
+controlled by level of desalter.
+EX-87095A/B/C:
+- Shell MAWP = 305 psig @ 290
+degF
+- Tube MAWP = 305 psig @ 290
+degF
+- Duty = 2.5 MMBTU/Hr
+AF-75469/209:
+- Design = 305 psig MAWP @ 290
+degF
+- Design Duty = 4 MMBTU/Hr",,,,99-DWG-9283,,,TK-56446,"Contact Water
+Sump",,,,,
+,,,,,,,,,,,,,,,,PM-48584A/B,"Contact Water
+Sump Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-4394,,,DT-81314A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-81314,"Condensate
+Desalter",,,,,
+,,,,,,,,,,,,,99-DWG-1245,,,EX-87095A/B/C,"Wash Water to
+Desalter Waste
+Water Preheater",,,,,
+,,,,,,,,,,,,,99-DWG-8622,,,AF-75469,"Desalter Waste
+Water Cooler",,,,,
+,,,,,,,,,,,,,,,,AF-99938,"Desalter Waste
+Water Cooler",,,,,
+,,,,,,,,,,,,,99-DWG-1017,,,D-33219A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-33219,"Condensate
+Desalter",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 78719,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+37. Node 72045: Mud Wash,,,,,,,,,"From 41268 Desalter Project PHA.
+Currently PM-35808A is not running
+due to misalignment issues. Only
+PM-35808B/C running.
+Occasionally operated to disturb the
+waste water in the desalters to
+suspend sediment. 2 pumps in
+parallel. One pump for each desalter
+under normal operations (capability
+to use either pump for either
+desalter). Flow: maximum =
+125gpm. Normal operation is for 79029-
+100gpm. Feed to pumps is 144psig.
+All valves in line are normally open
+except the desalter 1 and 2 isolation
+valves. 30 minutes per wash. Does
+not interrupt normal operations. Mud
+wash header in bottom of desalter.
+Approximate dP = 25psi (169psig
+total). Planned operation is daily.
+PM-35808A/B/C:
+- Design = 50 GPM, 10 HP, 3500
+RPM
+- Temp = 210 degF @ 84 psi deltaP",,,,99-DWG-4394,,,DT-81314A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-81314,"Condensate
+Desalter",,,,,
+,,,,,,,,,,,,,40-PI-34747A,,,PM-35808A/B/C,"Desalter Mud
+Wash Pumps",,,,,
+,,,,,,,,,,,,,99-DWG-1017,,,D-33219A/B/C,"Desalter
+Transformer",,,,,
+,,,,,,,,,,,,,,,,D-33219,"Condensate
+Desalter",,,,,
+"38. Node 86554: VOC
+Rundown/ Recirculation
+Chiller and Light Virgin
+VOC Tanks TK-24946-
+24/25",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes the VOC
+rundown chiller from Splitter 1
+and/or 2 to Light Virgin VOC
+(LVN) Tanks TK-24946-24 or TK-24946-
+25. Also includes recirculation chiller
+which will cool the VOC contents
+of Light VOC Tank TK-24946-24 or
+TK-24946-25 by recirculation through
+the chiller by Recirculation Pump P-
+6. Normal operation may include
+one or two LVN tanks. Under one
+LVN tank operation the rundown
+and recirculation cooler operate on
+the same tank, under two tank
+operation, rundown and
+recirculation may be on the same
+tank or on opposite tanks.
+The chillers are mainly used in the
+summer season. The tanks' target
+temperature is set based on
+analysis of the tanks' Reid vapor
+pressure (RVP) and a calculation of
+the true vapor pressure (TVP) of the
+tank. Current operation is to
+rundown into one of two tanks and
+recirculate/ discharge from the other
+tank.
+VOC is transferred from TK-24946-
+24/25 and TK-61869-15 via VOC
+Cargo Pumps P-2A/B and 38095""
+pipeline to Galena Park Terminal
+ground or water shipping area.",,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-4009,,,P-6,"Pump - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,99-DWG-1293,,,P-2A/B,"Pumps - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,99-DWG-4133,,,TK-61869-15,"Tank - 9000 Area
+VOC Heavy",,,,,
+,,,,,,,,,,,,,,,,MIX-85424,"Mixer - 9000 Area
+VOC Heavy
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-9878,,,MIX-75103,"Mixer - 9000
+VOC Light Tank",,,,,
+,,,,,,,,,,,,,,,,TK-24946-24,"9000 VOC Light
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-6333,,,MIX-58680,"Mixer - VOC
+Heavy/Light Tank",,,,,
+,,,,,,,,,,,,,,,,TK-24946-25,"VOC
+Heavy/Light Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+,,,,,,,,,From 25134 Tank Farm Project PHA,,,,99-DWG-4009,,,P-6,"Pump - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 65724,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+This node includes the heavy
+VOC rundown from Splitter 1
+and/or 2 to Heavy Virgin VOC
+(HVN) Tanks TK-61869-15 and TK-
+120-25 can be used as swing tank.
+Normal operation may include one
+or two HVN tanks.
+VOC is transferred from TK-24946-
+25 and TK-61869-15 via VOC
+Cargo Pumps P-2A/B and 38095""
+pipeline to Galena Park Terminal
+ground or water shipping area.",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+"39. Node 18556: Heavy Virgin
+VOC Tanks TK-61869-15
+and TK-24946-25",,,,,,,,,,,,,99-DWG-1293,,,P-2A/B,"Pumps - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,99-DWG-4133,,,TK-61869-15,"Tank - 9000 Area
+VOC Heavy",,,,,
+,,,,,,,,,,,,,,,,MIX-85424,"Mixer - 9000 Area
+VOC Heavy
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-6333,,,MIX-58680,"Mixer - VOC
+Heavy/Light Tank",,,,,
+,,,,,,,,,,,,,,,,TK-24946-25,"VOC
+Heavy/Light Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+"40. Node 89696: Kero Tanks
+100-20/ 100-11/ 150-10 and
+Recirc Filters/ Pumps",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes the kero
+rundown from Splitter 1 and/or 2
+through the Kero Filters FLT-52650/
+12A/B/C/ 13A/B or FLT-89561/
+22A/B/C/ 23A/B to Kero Tanks TK-
+100-20/100-11 and TK-85935-10.
+Normal operation is three kero tanks
+and rundown through the filters.
+Kero can be transferred between
+Kero Tanks or through Kero Filters
+via Recirculation Pump P-4 or
+through Kero Transfer Pumps P-
+1A/B to 38095"" pipeline to Galena Park
+Terminal ground or water shipping
+area.
+TK-85935-10:
+- Capacity = 150,165 BBl
+- Design = Atm @ 200 degF
+- MDMT = 30 degF
+TK-61869-11:
+- Capacity = 100,000 BBl
+- Design = Atm @ 200 degF
+- MDMT = 30 degF",,,,99-DWG-9830,,,TK-85935-10,"Tank - 9000 Area
+Kerosene",,,,,
+,,,,,,,,,,,,,,,,MIX-16573,"Mixer - 9000 Area
+Kerosene Tank",,,,,
+,,,,,,,,,,,,,99-DWG-8453,,,TK-61869-11,"Tank - 9000 Area
+Kerosene",,,,,
+,,,,,,,,,,,,,,,,MIX-44612,"Mixer - 9000 Area
+Kerosene Tank",,,,,
+,,,,,,,,,,,,,99-DWG-5784,,,TK-61869-12,"Tank - 9000 Area
+Kerosene",,,,,
+,,,,,,,,,,,,,,,,MIX-56959,"Mixer - 9000 Area
+Kerosene Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7294,,,P-1A/B,"Pumps - 9000 Area
+Kerosene / Diesel",,,,,
+,,,,,,,,,,,,,99-DWG-3311,,,MIX-37542,"Mixer - 9000 Area
+Diesel Tank",,,,,
+,,,,,,,,,,,,,,,,TK-61869-20,"Tank - 9000 Area
+Diesel",,,,,
+,,,,,,,,,,,,,99-DWG-1209,,,P-4,"Kerosene/Diesel
+Cargo Pump",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+,,,,,,,,,,,,,99-DWG-7350,,,P-KF,Filter Drain Pump,,,,,
+,,,,,,,,,,,,,,,,FLT-52650 AND -21,Particulate Filters,,,,,
+,,,,,,,,,,,,,,,,"FLT-38112A/B/C AND -
+22A/B/C","""Clay"" Filters",,,,,
+,,,,,,,,,,,,,,,,FLT-84873A/B AND -23A/B,Coalescing Filters,,,,,
+,,,,,,,,,,,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-5377,,,HTR-30860A/B/C/D,"Heaters - 9000
+Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK61869-13,"Tank - 9000 Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-30860,"Mixer - 9000 Area
+AGO/Feedstock
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095 Redline,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 97959,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7131,,,P-5,"Pump - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,99-DWG-4133,,,TK-61869-15,"Tank - 9000 Area
+VOC Heavy",,,,,
+,,,,,,,,,,,,,,,,MIX-85424,"Mixer - 9000 Area
+VOC Heavy
+Tank",,,,,
+"41. Node 67516: Diesel Tanks
+100-12/ 100-21 and Pumps",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes the diesel
+rundown from Splitter 1 and/or 2 to
+Diesel Tanks TK-61869-12/ 21.
+Normal operation is two diesel
+tanks.
+Diesel can be transferred between
+Diesel Tanks via Recirculation
+Pump P-4. Diesel Transfer Pumps
+P-1A/B send diesel to 38095"" pipeline to
+Galena Park Terminal ground or
+water shipping area.
+Diesel can be used to flush AGO
+lines and sent to feed pumps. Diesel
+flush can be returned to diesel tanks.
+TK-61869-12:
+- Capacity = 100,000 BBl
+- Design = Atm @ 200 degF
+- MDMT = 30 degF",,,,99-DWG-8164,,,TK-97415-2,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-50155,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-1829,,,HX1 & 2,"9000 Area Heat
+Exchangers",,,,,
+,,,,,,,,,,,,,99-DWG-5787,,,MIX-85766,Mixer - AGO,,,,,
+,,,,,,,,,,,,,,,,TK-24946-22,Tank - AGO,,,,,
+,,,,,,,,,,,,,,,,HTR-85766A/B/C/D,Heaters - AGO,,,,,
+,,,,,,,,,,,,,99-DWG-8453,,,TK-61869-11,"Tank - 9000 Area
+Kerosene",,,,,
+,,,,,,,,,,,,,,,,MIX-44612,"Mixer - 9000 Area
+Kerosene Tank",,,,,
+,,,,,,,,,,,,,99-DWG-5784,,,TK-61869-12,"Tank - 9000 Area
+Kerosene",,,,,
+,,,,,,,,,,,,,,,,MIX-56959,"Mixer - 9000 Area
+Kerosene Tank",,,,,
+,,,,,,,,,,,,,99-DWG-4583,,,MIX-73158,"Mixer - 9000 Area
+AGO Tank",,,,,
+,,,,,,,,,,,,,,,,TK-24946-23,"Tank - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,,,,HTR-73158A/B/C/D,"Heaters - 9000
+Area AGO",,,,,
+,,,,,,,,,,,,,99-DWG-5377,,,HTR-30860A/B/C/D,"Heaters - 9000
+Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK61869-13,"Tank - 9000 Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-30860,"Mixer - 9000 Area
+AGO/Feedstock
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7189,,,P-3A/B,"Pumps - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,99-DWG-4009,,,P-6,"Pump - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,99-DWG-3095,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 95328,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,Design Conditions/Parameters,,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095 Redline,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7294,,,P-1A/B,"Pumps - 9000 Area
+Kerosene / Diesel",,,,,
+,,,,,,,,,,,,,99-DWG-7131,,,P-5,"Pump - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,99-DWG-4133,,,TK-61869-15,"Tank - 9000 Area
+VOC Heavy",,,,,
+,,,,,,,,,,,,,,,,MIX-85424,"Mixer - 9000 Area
+VOC Heavy
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-9064,,,MIX-80058,"Mixer - 9000 Area
+Diesel Tank",,,,,
+,,,,,,,,,,,,,,,,TK61869-21,"Tank - 9000 Area
+Diesel",,,,,
+,,,,,,,,,,,,,99-DWG-1209,,,P-4,"Kerosene/Diesel
+Cargo Pump",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+,,,,,,,,,,,,,99-DWG-3761,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,P-HX,"Condensate Feed
+Pump",,,,,
+"42. Node 35174: AGO Tanks
+100-13/ 120-22/ 120-23 and
+Pumps",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes the AGO
+rundown from Splitter 1 and/or 2 to
+AGO Tanks TK-61869-13/ 120-22/23.
+Normal operation is three AGO
+tanks. One tank of the three tanks
+will be set as low, medium and high
+quality.
+AGO can be transferred between
+AGO Tanks via Recirculation Pump
+P-5. AGO Transfer Pumps P-3A/B
+send AGO to 38095"" pipeline to Galena
+Park Terminal ground or water
+shipping area, or return to a feed
+tank.
+The AGO pig launcher was intended
+to pig the AGO transfer lines to the
+terminal. It has never been used in
+favor of diesel flushing the AGO
+lines.
+Heat Exchangers HX1/2
+Exchangers can be used to circulate
+the feed tanks through HX1/2 and
+pre-heat the feed to the splitters as
+an energy efficiency. This is not",,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-1829,,,HX1 & 2,"9000 Area Heat
+Exchangers",,,,,
+,,,,,,,,,,,,,99-DWG-5787,,,MIX-85766,Mixer - AGO,,,,,
+,,,,,,,,,,,,,,,,TK-24946-22,Tank - AGO,,,,,
+,,,,,,,,,,,,,,,,HTR-85766A/B/C/D,Heaters - AGO,,,,,
+,,,,,,,,,,,,,99-DWG-4583,,,MIX-73158,"Mixer - 9000 Area
+AGO Tank",,,,,
+,,,,,,,,,,,,,,,,TK-24946-23,"Tank - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,,,,HTR-73158A/B/C/D,"Heaters - 9000
+Area AGO",,,,,
+,,,,,,,,,,,,,99-DWG-5377,,,HTR-30860A/B/C/D,"Heaters - 9000
+Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK61869-13,"Tank - 9000 Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-30860,"Mixer - 9000 Area
+AGO/Feedstock
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7189,,,P-3A/B,"Pumps - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 35657,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+used in practice due to high solids
+and pump plugging as well as
+potential environmental concern
+with heating the feed tanks.
+HX-1/2:
+- Shell MAWP = 150 psig @ 650
+degF
+- Tube MAWP = 150 psig @ 650
+degF
+- MDMT = - 20 degF
+TK-24946-22:
+- Design = Atm @ 200 degF
+- MDMT = 30 degF
+TK-24946-23:
+- Capacity = 120,000 BBl
+- Design = Atm @ 200 degF
+- MDMT = 30 degF
+TK61869-13:
+- Capacity = 100,000 BBL",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-4009,,,P-6,"Pump - 9000 Area
+VOC",,,,,
+,,,,,,,,,,,,,99-DWG-3095,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095 Redline,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-7131,,,P-5,"Pump - 9000 Area
+AGO",,,,,
+,,,,,,,,,,,,,99-DWG-4133,,,TK-61869-15,"Tank - 9000 Area
+VOC Heavy",,,,,
+,,,,,,,,,,,,,,,,MIX-85424,"Mixer - 9000 Area
+VOC Heavy
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+"43. Node 86555: Feed Tank and
+Feed Pumps PM-53688A/B/C",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes Feed Tanks TK-
+200-1/2/3. Normal operation is
+three Feed tanks with no quality
+difference. The plant can be fed from
+12"" Magellan line to all three tanks
+and TK-61869-14 and a 35796"" Kinder
+Morgan Condensate Crude KMCC
+line to all three tanks and TK-61869-
+14. The Magellan line also includes
+a pig launcher that is operated by
+Galena Park. The pig launcher on
+the KMCC line is not operated by
+Galena Park.
+Feed can be transferred between
+Feed Tanks via Pump P-HX which
+send feed through the AGO
+Exchanger HX1/2. Feed Pumps PM-
+111A/B/C send Feed to Splitter 1/2
+from TK-97415-1/2/3. Feed can be
+transferred from TK-61869-14 to TK-
+200-1/2/3 via P-7 and then through
+P-HX also through the AGO
+Exchanger HX1/2 which will be
+review in node 7. This node also
+includes the hydrocarbon header
+which is a maintenance drain from
+the splitter, removes liquid from flare
+knockout drum and is the relief
+header for the Feed Pumps PM-
+111A/B/C thermal safeties.
+TK-97415-1/200-3:
+- Capacity = 200,130 Atm BBl
+- MDMT = 30 degF
+- Max Temp = 200 degF",,,,99-DWG-5353,,,TK-97415-1,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-98749,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-8164,,,TK-97415-2,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-50155,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-1829,,,HX1 & 2,"9000 Area Heat
+Exchangers",,,,,
+,,,,,,,,,,,,,99-DWG-5377,,,HTR-30860A/B/C/D,"Heaters - 9000
+Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK61869-13,"Tank - 9000 Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-30860,"Mixer - 9000 Area
+AGO/Feedstock
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095 Redline,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 58747,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+TK-97415-2:
+- Capacity = 200,130 BBl
+- MAWP = Atm",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+,,,,,,,,,,,,,99-DWG-3761,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,P-HX,"Condensate Feed
+Pump",,,,,
+,,,,,,,,,,,,,99-DWG-7727,,,,"W. Columbia P/L
+Connection to
+Splitter",,,,,
+"44. Node 94182: Rerun Tank
+100-14 and Rerun Pump P-
+HX",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes Rerun Tank TK-
+100-14. TK-61869-14 can be used as
+a feed surge tank but is normally
+used in Rerun service which takes
+finished products after coolers. TK-
+100-14 can also be fed by the
+Magellan and KMCC pipelines
+which was covered in Node 6.
+Feed or Rerun can be transferred
+from TK-61869-14 to Feed Tanks TK-
+200-1/2/3 via Pump P-7 and then
+through P-HX also through the AGO
+Exchanger HX1/2 to each tank.
+HX-1/2:
+- Shell MAWP = 150 psig @ 650
+degF
+- Tube MAWP = 150 psig @ 650
+degF
+- MDMT = - 20 degF",,,,99-DWG-5353,,,TK-97415-1,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-98749,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-8164,,,TK-97415-2,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-50155,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2929,,,TK-97415-3,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-74045,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-1829,,,HX1 & 2,"9000 Area Heat
+Exchangers",,,,,
+,,,,,,,,,,,,,99-DWG-5377,,,HTR-30860A/B/C/D,"Heaters - 9000
+Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK61869-13,"Tank - 9000 Area
+AGO/Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-30860,"Mixer - 9000 Area
+AGO/Feedstock
+Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095 Redline,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3095,,,P-7,"Pump - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,TK-61869-14,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-40903,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-3761,,,PM-53688A/B/C,"Condensate Feed
+Pumps",,,,,
+,,,,,,,,,,,,,,,,P-HX,"Condensate Feed
+Pump",,,,,
+"45. Node 77215: Waste Water
+TK-5 and Pumps P-95795A/B P-
+17 and P-74532",,,,,,,,,"From 25134 Tank Farm Project PHA
+This node includes Waste Water
+Tank TK-5. TK-5 receives process
+water from Splitter 1/2 Overhead
+Accumulator PV-56446/202 as well as
+the curbed containment areas. TK-5
+also receives water from the two lift
+stations in the tank farm area which
+receive water draw from each of the
+product tanks and the curbed",,,,99-DWG-5353,,,TK-97415-1,"Tank - 9000 Area
+Feedstock",,,,,
+,,,,,,,,,,,,,,,,MIX-98749,"Mixer - 9000 Area
+Feedstock Tank",,,,,
+,,,,,,,,,,,,,99-DWG-8909,,,P84873 thru P38095,"Pumps - Process
+Waste Water Tank",,,,,
+,,,,,,,,,,,,,,,,TK 5-0,"Process Waste
+Water Tank",,,,,
+,,,,,,,,,,,,,99-DWG-8909 Redline,,,P84873 thru P38095,"Pumps - Process
+Waste Water Tank",,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 11535,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,"Title: DEMO Process Process Hazard
+Analysis Study
+Study Date: 2024/03/25-2024/04/15",,,,,,,,
+DEMO Process Unit,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Nodes,,,,,,,,,"Design Conditions/Parameters
+containment areas. The water draw
+from the spheres is isolated. The lift
+stations send water to TK-5 using
+Pumps P-84873/14/15/16. Pump P-98747
+and PM-95795A/B send water to gulf
+coast water authority. P-74532 is used
+for oil skimming TK-5 and the oil is
+sent through the Rerun line to Rerun
+Tank TK-61869-14.",,,,"Drawings /
+References",,,Equipment,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Tag,Description,,,,,
+,,,,,,,,,,,,,,,,TK 5-0,"Process Waste
+Water Tank",,,,,
+,,,,,,,,,,,,,99-DWG-2883,,,,"Clinton Drive Pipe
+Interfaces",,,,,
+,,,,,,,,,,,,,99-DWG-1408,,,P-98747,Pump,,,,,
+,,,,,,,,,,,,,,,,P-74532,Pump,,,,,
+,,,,,,,,,,,,,,,,PM-95795A/B,"TK-5 Transfer
+Pumps",,,,,
+46. Global,,,,,,,,,"A review of global scenarios that
+applies to all nodes in Galena Park",,,,,,,,,,,,,
+47. MOC Review,,,,,,,,,"MOC Review for past 5 years for
+Galena Park
+Deviation column - MOC #
+Causes column - Date requested
+Consequences column - MOC Title
+Safeguards column - Technical
+Basis
+Remark column - MOC
+Description/Justification",,,,,,,,,,,,,
+48. Incident Review,,,,,,,,,"Incident Review for past 5 years for
+Galena Park
+Deviation Column - Incident ID #
+Causes column - Incident
+Description
+Consequences column - Date/Time
+of Incident
+Remark column - Immediate Action
+Taken",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,"The Study team utilized a Distillationnation of HAZOP and What if / Checklist methodologies to modify
+any nodes / topics as applicable.",,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+3. Risk Ranking,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,"The risk ranking was evaluated using the current Kinder Morgan Risk Ranking Matrix, shown in
+Appendix A – Risk Ranking Matrix Appendix A – Risk Ranking Matrix. The risk matrix was used to
+qualitatively assess the risk associated with each identified cause / consequence scenario that
+presented hazardous consequences. For the purpose of this analysis, Hazardous consequences were
+considered to be those situations that could result in a loss due to injury, environmental impact, or
+financial loss.",,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,3.1. Assigning Severity and Likelihood,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,"The team first identifies credible worst case consequences, as well as engineering and
+administrative safeguards. Severity is then assigned based on the credible worst case
+consequences without utilizing mitigation from the engineering or administrative safeguards.
+Likelihood is then assessed with engineering and administrative safeguards in place. The severity
+is assigned based on a number rating system of ‘1’ to ‘5’. Likelihood is assigned based on a number
+rating system of ‘1’ to ‘5’. The descriptions can be found on the risk-ranking matrix in Appendix A
+– Risk Ranking Matrix.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,3.2. Risk Ranking,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,"The descriptions can be found below and on the risk-ranking matrix in Appendix A – Risk Ranking
+Matrix. Utilizing the risk matrix, the scenario is assigned a Risk Rank value of ‘1’ to ‘6’. The PHA
+team shall assign action items as follows:",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,x,,,,,,,,,,,,,,,,,,
+,,,,,,Risk Rank 1 - Negligible risk; no action required.,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Page 50901,,,,
