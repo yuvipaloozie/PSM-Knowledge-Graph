@@ -1,4 +1,4 @@
-# Process Safety Management (PSM) Knowledge Graph & RAG Architecture
+# Process Safety Management (PSM) Knowledge Graph
 ---
 *Disclaimer: The datasets provided herein have been strictly anonymized and sanitized. No proprietary corporate data, actual process configurations, or live asset tags are present within the repository.*
 
