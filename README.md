@@ -4,6 +4,22 @@ This repository demonstrates an end-to-end data engineering, Natural Language Pr
 
 It ingests highly unstructured engineering documentation (Process Hazard Analyses, Alarm Registers, and P&IDs), extracts latent topological and causal relationships, and constructs a queryable, deterministic Process Knowledge Graph. A localized LLM agent interfaces with this graph to provide hallucination-free querying of plant physics and safety systems.
 
+## Dataset Metrics (Demonstration Sample)
+The anonymized sample datasets provided in this repository have been fully processed by the pipeline, yielding the following deterministic engineering metrics:
+
+### Topological Process Graph (`PSM_Master_Inputs.graphml`)
+- **Total Topological Entities (Nodes):** 3,584
+- **Causal & Physical Relationships (Edges):** 6,826
+- **Unique Process Equipment Mapped:** 219
+- **Unique Hazard Scenarios (Causes/Consequences):** 2,685
+- **Safety Instrumented Functions (SIFs) & Safeguards:** 481
+
+### Automated Gap Analysis (`PSM_Master_Inputs.db`)
+- **Total Safeguards Audited Against Alarm Register:** 372
+- **Successfully Aligned (PHA matches Alarm Config):** 191
+- **Critical Mismatches (PHA Severity=4/5 vs Low Priority Alarm):** 43
+- **Under-Rationalized Alarms:** 13
+
 ## Technical Architecture
 
 ### 1. Data Ingestion & NLP Extraction Pipeline (`pipeline/`)
