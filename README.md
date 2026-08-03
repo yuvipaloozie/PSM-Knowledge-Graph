@@ -1,7 +1,6 @@
 # Process Safety Management (PSM) Knowledge Graph & RAG Architecture
 ---
 *Disclaimer: The datasets provided herein have been strictly anonymized and sanitized. No proprietary corporate data, actual process configurations, or live asset tags are present within the repository.*
----
 **Demo:** https://psm-knowlege-graph-db.streamlit.app/ 
 
 This repository demonstrates an end-to-end data engineering, Natural Language Processing (NLP), and Graph Retrieval-Augmented Generation (GraphRAG) architecture tailored for industrial Process Safety Management (PSM). 
