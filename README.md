@@ -67,12 +67,12 @@ ollama run llama3.2
 ### Execution
 The repository provisions two discrete presentation layers:
 
-**Graph Visualization & AI Copilot:**
+**Knowledge Graph with SLM Copilot**
 ```bash
 streamlit run appGraph.py
 ```
 
-**Relational Explorer & Gap Analysis:**
+**RDB Explorer with Gap Analysis**
 ```bash
 streamlit run app.py
 ```
