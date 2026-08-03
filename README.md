@@ -1,6 +1,6 @@
 # Process Safety Management (PSM) Knowledge Graph & RAG Architecture
 
-**Live Cloud Demo:** [[https://psm-knowledge-graph.streamlit.app](https://psm-knowledge-graph.streamlit.app) ](https://psm-knowlege-graph-db.streamlit.app/)
+**Live Cloud Demo:** https://psm-knowlege-graph-db.streamlit.app/ 
 *(Note: Due to cloud container constraints, the Local AI Copilot tab requires running the repository locally with Ollama).*
 
 This repository demonstrates an end-to-end data engineering, Natural Language Processing (NLP), and Graph Retrieval-Augmented Generation (GraphRAG) architecture tailored for industrial Process Safety Management (PSM). 
