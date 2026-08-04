@@ -14,8 +14,8 @@ It ingests highly unstructured engineering documentation (Process Hazard Analyse
 
 ![Graph Traversal](assets/screenshot1.png)
 
-## Dataset Metrics (Demonstration Sample)
-The anonymized sample datasets provided in this repository have been fully processed by the pipeline, yielding the following deterministic engineering metrics:
+## Dataset Metrics
+The anonymized sample datasets provided in this repository have been fully processed by the pipeline, yielding the following metrics:
 
 ### Topological Process Graph (`PSM_Master_Inputs.graphml`)
 - **Total Topological Entities (Nodes):** 3,584
